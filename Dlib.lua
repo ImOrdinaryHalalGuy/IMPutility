@@ -14,7 +14,7 @@ pcall(function()
 	userinfo = HttpService:JSONDecode(readfile("discordlibinfo.txt"));
 end)
 
-pfp = "rbxassetid://7029543715"
+pfp = "https://www.roblox.com/library/7029543715/ImperialRobloxian"
 user =  "ImperialCouncil"
 tag = userinfo["tag"] or tostring(math.random(0001,0010))
 
