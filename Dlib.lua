@@ -14,7 +14,7 @@ pcall(function()
 	userinfo = HttpService:JSONDecode(readfile("discordlibinfo.txt"));
 end)
 
-pfp = userinfo["pfp"] or "https://www.roblox.com/library/7029543715/ImperialRobloxian"
+pfp = userinfo["pfp"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
 user = userinfo["user"] or "ImperialCouncil"
 tag = userinfo["tag"] or "000"..tostring(math.random(1,9))
 
